@@ -55,7 +55,7 @@ header {
 }
 
 .eodadwa:hover {
-    color: #000000;
+    color: red;
 }
 
 .oaud {
@@ -78,3 +78,76 @@ h1 {
     margin: 0;
     text-align: center;
 }
+
+.imgh1hr {
+    width: 80%;
+    max-width: 1000px; /* حداکثر عرض برای صفحه‌های بزرگ‌تر */
+    aspect-ratio: 16 / 9; /* نسبت ابعاد ۱۶ به ۹ */
+    margin: 0 auto; /* مرکز قرار دادن div */
+    border-radius: 20px; /* گوشه‌های گرد */
+    overflow: hidden; /* پنهان کردن بخش‌های اضافی عکس */
+    background-color: #f3f3f3; /* رنگ زمینه برای زمان بارگذاری عکس */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* سایه برای زیبایی */
+    text-align: center;
+}
+
+.imgh1hr img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* برش دادن عکس برای تناسب کامل */
+    border-radius: 20px; /* گوشه‌های گرد بر تصویر اعمال می‌شود */
+}
+
+h2 {
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #333;
+    color: #fff;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .footer-section {
+    flex: 1 1 30%; /* تنظیم اندازه بخش‌ها */
+    margin: 0;
+    text-align: center;
+  }
+  
+  .footer-section h3 {
+    border-bottom: 2px solid white; /* خط زیر عنوان‌ها */
+    padding-bottom: 5px;
+    text-align: center;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .footer-section ul li {
+    margin: 5px 0;
+    text-align: center;
+  }
+  
+  .footer-section ul li a {
+    color: white; /* رنگ لینک‌ها */
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .footer-section ul li a:hover {
+    text-decoration: underline;
+    text-align: center;
+  }
+
+  .social-media a img {
+    width: 32px;
+    height: 32px;
+    margin: 0 5px;
+  }
