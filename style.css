@@ -84,7 +84,7 @@ h1 {
     max-width: 1000px; /* حداکثر عرض برای صفحه‌های بزرگ‌تر */
     aspect-ratio: 16 / 9; /* نسبت ابعاد ۱۶ به ۹ */
     margin: 0 auto; /* مرکز قرار دادن div */
-    border-radius: 20px; /* گوشه‌های گرد */
+    border-radmargi: 10px; /* گوشه‌های گرد */
     overflow: hidden; /* پنهان کردن بخش‌های اضافی عکس */
     background-color: #f3f3f3; /* رنگ زمینه برای زمان بارگذاری عکس */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* سایه برای زیبایی */
