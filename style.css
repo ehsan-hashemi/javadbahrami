@@ -83,9 +83,14 @@ h1 {
     width: 80%;
     max-width: 1000px; /* حداکثر عرض برای صفحه‌های بزرگ‌تر */
     aspect-ratio: 16 / 9; /* نسبت ابعاد ۱۶ به ۹ */
-    margin: 0 auto; /* مرکز قرار دادن div */
-    border-radmargi: 10px; /* گوشه‌های گرد */
-    background-color: #f3f3f3; /* رنگ زمینه برای زمان بارگذاری عکس */
+    imargin: 0 auto; /* مرکز قرار دادن div */
+    border-radmarg: 20px; /* گوشه‌های گرد */
+    overflow: hidden; /* مخفی کردن قسمت های اضافی */
+    display: flex; /* استفاده از فلکس باکس برای مرکز قرار دادن عکس */
+    align-items: center; /* مرکز قرار دادن عمودی */
+    justify-content: center; /* مرکز قرار دادن افقی */
+    position: relative; /* برای استفاده از موقعیت نسبی */
+    margin: 20px auto; /* فاصله از بالا و پایین */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* سایه برای زیبایی */
     text-align: center;
 }
@@ -150,3 +155,38 @@ h2 {
     height: 32px;
     margin: 0 5px;
   }
+
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 0;
+}
+
+.cpsf {
+    color: #000000;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    direction: rtl;
+    text-align: right;
+}
+
+.pte1 {
+    direction: ltr;
+}
+
+.dpaf {
+    direction: ltr;
+    text-align: center;
+}
+
+.qopa {
+    color: white;
+}
