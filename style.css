@@ -98,8 +98,8 @@ h1 {
 .imgh1hr img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* برش دادن عکس برای تناسب کامل */
-    border-radius: 20px; /* گوشه‌های گرد بر تصویر اعمال می‌شود */
+    object-fit: cover;
+    border-radius: 20px;
 }
 
 h2 {
