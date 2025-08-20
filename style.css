@@ -5,7 +5,7 @@
 
   body {
     font-family: "Vazir";
-    background-color: rgba(8, 0, 255, 0.534);
+    background-color: rgba(193,150,81,255);
     margin: 0;
     padding: 0;
     direction: rtl;
@@ -31,7 +31,7 @@
 }
 
 header {
-    background-color: #03005c;
+    background-color: #534123;
 }
 
 .hecac {
