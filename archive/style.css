@@ -1,0 +1,181 @@
+@font-face {
+    font-family: "Vazir";
+    src: url(/fonts/Vazir-Regular.ttf);
+}
+
+body {
+    font-family: "Vazir";
+    background-color: rgba(252,195,106,255);
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    text-align: right;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.nameh1h1 {
+    text-align: center;
+}
+
+.abouth2h2 {
+    text-align: center;
+    font-size: medium;
+}
+
+.pwh1 {
+    direction: rtl;
+    margin: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #534123;
+}
+
+.hecac {
+    direction: ltr;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    color: #ffffff;
+}
+
+.alhh {
+    direction: rtl;
+    text-align: center;
+    margin-top: 10px;
+    color: red;
+}
+
+.eodadwa {
+    text-decoration: none;
+    color: white;
+}
+
+.eodadwa:hover {
+    color: red;
+}
+
+.oaud {
+    text-decoration: none;
+}
+
+.eashe {
+    text-decoration: none solid black;
+    color: #000000;
+}
+
+.iconh1h {
+    margin-right: 10px; 
+    width: 100px;
+    height: 100px;
+    border-radius: 10px; 
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+}
+
+.imgh1hr {
+    width: 80%;
+    margin: 20px auto; /* فاصله از بالا و پایین */
+    text-align: center;
+}
+
+.imgh1hr img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #333;
+    color: #fff;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .footer-section {
+    flex: 1 1 30%; /* تنظیم اندازه بخش‌ها */
+    margin: 0;
+    text-align: center;
+  }
+  
+  .footer-section h3 {
+    border-bottom: 2px solid white; /* خط زیر عنوان‌ها */
+    padding-bottom: 5px;
+    text-align: center;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .footer-section ul li {
+    margin: 5px 0;
+    text-align: center;
+  }
+  
+  .footer-section ul li a {
+    color: white; /* رنگ لینک‌ها */
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .footer-section ul li a:hover {
+    text-decoration: underline;
+    text-align: center;
+  }
+
+  .social-media a img {
+    width: 32px;
+    height: 32px;
+    margin: 0 5px;
+  }
+
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 0;
+}
+
+.cpsf {
+    color: #000000;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    direction: rtl;
+    text-align: right;
+}
+
+.pte1 {
+    direction: ltr;
+}
+
+.dpaf {
+    direction: ltr;
+    text-align: center;
+}
+
+.qopa {
+    color: white;
+}
