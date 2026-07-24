@@ -8,7 +8,7 @@
 
     <!-- Canonical & SEO -->
     <link rel="canonical" href="https://javadbahrami.ir/">
-    <meta name="description" content="جواد بهرامی">
+    <meta name="description" content="وب‌سایت رسمی جواد بهرامی">
     <meta name="robots" content="index, follow">
 
     <!-- Open Graph -->
@@ -37,13 +37,22 @@
             <img src="/images/icon.png" alt="لوگو جواد بهرامی" class="logo-img" loading="lazy">
             <h1 data-i18n="site_title">جواد بهرامی</h1>
         </div>
-        <nav>
+        
+        <!-- Mobile Menu Toggle -->
+        <button class="menu-toggle" id="menuToggle" aria-label="منو">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav id="mainNav">
             <a href="#home" data-i18n="home"></a>
             <a href="#skills" data-i18n="skills"></a>
             <a href="#honors" data-i18n="honors"></a>
             <a href="#activities" data-i18n="activities"></a>
             <a href="#contact" data-i18n="contact"></a>
         </nav>
+        
         <div class="lang-switch">
             <button onclick="setLanguage('fa')">FA</button>
             <button onclick="setLanguage('en')">EN</button>
@@ -52,34 +61,33 @@
     </header>
 
     <main>
-        <section id="home">
+        <section id="home" class="fade-in-section">
             <h2 data-i18n="home"></h2>
             <div class="image-box"><img src="/images/Home.png" alt="خانه" loading="lazy"></div>
         </section>
 
-        <section id="skills">
+        <section id="skills" class="fade-in-section">
             <h2 data-i18n="skills"></h2>
             <div class="image-box"><img src="/images/Skills.png" alt="مهارت‌ها" loading="lazy"></div>
         </section>
 
-        <section id="honors">
+        <section id="honors" class="fade-in-section">
             <h2 data-i18n="honors"></h2>
             <div class="image-box"><img src="/images/Honors.png" alt="افتخارات" loading="lazy"></div>
         </section>
 
-        <section id="activities">
+        <section id="activities" class="fade-in-section">
             <h2 data-i18n="activities"></h2>
             <div class="image-box"><img src="/images/Activity 2.png" alt="فعالیت‌ها" loading="lazy"></div>
             <div class="image-box"><img src="/images/Activity 3.png" alt="فعالیت‌ها" loading="lazy"></div>
         </section>
 
-
-        <section id="contact">
+        <section id="contact" class="fade-in-section">
             <h2 data-i18n="contact"></h2>
             <div class="social-media">
-                <a href="mailto:Bahramyj6@gmail.com" aria-label="Email"><img src="https://www.svgrepo.com/show/502648/email.svg" alt="ایمیل"></a>
-                <a href="https://eitaa.com/misagh2000" target="_blank" aria-label="Eitaa"><img src="https://www.svgrepo.com/show/329592/eitaa.svg" alt="ایتا"></a>
-                <a href="https://instagram.com/Misagh_2022" target="_blank" aria-label="Instagram"><img src="https://www.svgrepo.com/show/30539/instagram-logo.svg" alt="اینستاگرام"></a>
+                <a href="mailto:Bahramyj6@gmail.com" aria-label="Email" class="social-icon"><img src="https://www.svgrepo.com/show/502648/email.svg" alt="ایمیل"></a>
+                <a href="https://eitaa.com/misagh2000" target="_blank" aria-label="Eitaa" class="social-icon"><img src="https://www.svgrepo.com/show/329592/eitaa.svg" alt="ایتا"></a>
+                <a href="https://instagram.com/Misagh_2022" target="_blank" aria-label="Instagram" class="social-icon"><img src="https://www.svgrepo.com/show/30539/instagram-logo.svg" alt="اینستاگرام"></a>
             </div>
         </section>
     </main>
